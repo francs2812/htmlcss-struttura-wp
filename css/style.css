@@ -25,7 +25,6 @@ body{
 header {
     height: 80px;
     width: 100%;
-    display: inline-block;
     background-color: #E579E6;
 }
 
@@ -40,7 +39,6 @@ header {
 
 /* main */
 main{
-    height: 600px;
     width: 100%;
     margin-top: 30px;
     background-color: #0086FE;
@@ -56,7 +54,23 @@ main>.top {
 
 aside.left{
     width: 200px;
-    height: 100%;
+    height: 470px;
     background-color: #ABCFE7;
     float: left;
+    margin-right: 30px;
+}
+
+div.centre {
+    width: 578px;
+    height: 470px;
+    background-color: #ABCFE7;
+    float: left;
+    margin-right: 30px;
+}
+aside.right{
+    width: 200px;
+    height: 470px;
+    background-color: #ABCFE7;
+    float: left;
+
 }

@@ -15,11 +15,11 @@ body{
 }
 
 /* commit */
-.clearfix::after {
+.clearfix ::after {
     content: "";
     display: table;
     clear: both;
-} 
+}
 
 /* header */
 header {
@@ -44,6 +44,7 @@ main{
     width: 100%;
     margin-top: 30px;
     background-color: #0086FE;
+    padding-bottom: 30px;
 }
 
 main>.top {
@@ -51,4 +52,11 @@ main>.top {
     height: 80px;
     background-color: #ABCFE7;
     margin-bottom: 30px;
+}
+
+aside.left{
+    width: 200px;
+    height: 100%;
+    background-color: #ABCFE7;
+    float: left;
 }
